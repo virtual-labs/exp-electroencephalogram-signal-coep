@@ -1,1 +1,1 @@
-## Experiment name
+### To simulate Electroencephalogram Signal
