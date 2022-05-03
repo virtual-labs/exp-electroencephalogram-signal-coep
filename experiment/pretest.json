@@ -2,38 +2,64 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "An epileptic attack can be induced in a normal person by means of?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "an electric shock",
+        "b": "Walking along the road during sunny day",
+        "c": "hearing thunder",
+        "d": "exposing bright light"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "The EEG signals are originated from the",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Acetylcholine",
+        "b": "Motor units",
+        "c": "Sino atrial node",
+        "d": "Glia cells"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+      
+      "correctAnswer": "d",
       "difficulty": "beginner"
-    }
+    },
+    {
+    "question": "The ranges of frequency and voltage related to EEG are",
+    "answers": {
+        "a": "0.5 Hz to 100 Hz and 10 &mu;V to 100 &mu;V",
+        "b": "DC to 10 kHz and 10 &mu;V to 1000 &mu;V",
+        "c": "0 to 1000 kHz and 0.1 mV to few mV",
+        "d": "20 Hz to 100 Hz and 0 to few mV"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+    "question": "A continuous signal analysis over long periods of time can be performed by frequency analysis with the aid of",
+    "answers": {
+        "a": "fourier auto correlation",
+        "b": "band pass filters",
+        "c": "chopper amplifier",
+        "d": "memory storage devices"
+    },
+   
+    "correctAnswer": "b",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "Recording of the peripheral nerves action potentials is called",
+    "answers": {
+        "a": "Electromyography",
+        "b": "Electro corticography",
+        "c": "Electro neurography",
+        "d": "Electro nervegraphy"
+    },
+    
+    "correctAnswer": "c",
+    "difficulty": "beginner"
+  }
   ]
 }
