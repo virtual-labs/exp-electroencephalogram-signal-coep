@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In the case of EEG with unipolar leads, the potential of each electrode is measured with respect to",
+      "answers": {
+        "a": "indifferent electrode",
+        "b": "forehead electrode",
+        "c": "ground",
+        "d": "adjacent electrode"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " Information is transmitted through the axon (nerve fiber) by means of short pulses of constant amplitude in accordance with the output of the electronic circuits called",
+      "answers": {
+        "a": "Rectifier",
+        "b": "Monostable and flip flop",
+        "c": "Delay circuits",
+        "d": "Memory circuits"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " The resting potential of the inside of the neuron is about",
+      "answers": {
+        "a": "100 &mu;V",
+        "b": "1 mV",
+        "c": "-70 mV",
+        "d": "few mV"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The brain waves with frequencies between 8 and 13Hz and a mean amplitude of 50 &mu;V are called",
+      "answers": {
+        "a": "Spike and waves due to Epilepsy",
+        "b": "Delta waves",
+        "c": "Theta waves",
+        "d": "Alpha waves"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The frequency of the action potential in the relaxed muscle is",
+      "answers": {
+        "a": "20-5000 Hz",
+        "b": "60 Hz",
+        "c": "0 Hz",
+        "d": "50 Hz"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

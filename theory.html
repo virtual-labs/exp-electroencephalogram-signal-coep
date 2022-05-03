@@ -1,0 +1,467 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'COEP',
+        'phase': 'Testing',
+        'expName': 'TO SIMULATE ELECTROENCEPHALOGRAM SIGNAL',
+        'expShortName': 'electroencephalogram-signal'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="electroencephalogram-signal">
+    	<meta name="developer-institute" content="COEP">
+    	<meta name="learning-unit" content="TO SIMULATE ELECTROENCEPHALOGRAM SIGNAL">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+  </head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center">
+            <ul class="navbar-nav ml-auto text-center d-flex flex-md-row">
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in">HOME</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/participating-institutes">PARTNERS</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/contact-us">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+		  <div class="row py-4 px-4 breadcrumbs">
+		  	<div class="title is-4 tools">Tools</div>
+		  	<span class="mx-2">
+		  		<i aria-hidden="true" class="fa fa-angle-right"></i>
+		  	</span>
+		  	<a href="performance-report.html" target="_blank">
+		  		<button class="v-button">Performance Tool</button>
+		  	</a>
+		  </div>
+	  </div>
+          <div class="flex-column">
+            <div id="plugin-bug-report"></div>
+            <div id="plugin-rating"></div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h3 id="to-simulate-electroencephalogram-signal">To simulate Electroencephalogram Signal</h3>
+          
+            </div>
+              <h3 id="theory">Theory</h3>
+          <h4 id="history-of-eeg"><strong>History of EEG</strong></h4>
+          <p>The neural activity of the human brain starts between the 17th and 23rd week of prenatal development. It is believed that from this early stage and throughout life electrical signals generated by the brain represent not only the brain function but also the status of the whole body. This assumption provides the motivation to apply advanced digital signal processing methods to the electroencephalogram (EEG) signals measured from the brain of a human subject.</p>
+          <h4 id="what-is-eeg"><strong>What is EEG?</strong></h4>
+          <p>The electroencephalogram (EEG) is a unique and valuable measure of the brain's electrical function. It is a graphic display of a difference in voltages from two sites of brain function recorded over time. Electroencephalography (EEG) involves the study of recording these electrical signals that are generated by the brain. Understanding of neuronal functions and neurophysiological properties of the brain together with the mechanisms underlying the generation of signals and their recordings is, however, vital for those who deal with these signals for detection, diagnosis, and treatment of brain disorders and the related diseases. We need to understand the neuronal functions and neurophysiological properties of the brain together with the mechanisms underlying the generation of signals and their recordings. It is, however, vital for those who deal with these signals for detection, diagnosis, and treatment of brain disorders and the related diseases.</p>
+          <h4 id="neural-activities"><strong>Neural Activities</strong></h4>
+          <p>The Central Nervous System (CNS) generally consists of nerve cells and glia cells, which are located between neurons. Each nerve cell consists of axons, dendrites, and cell bodies. Nerve cells respond to stimuli and transmit information over long distances. A nerve cell body has a single nucleus and contains most of the nerve cell metabolism, especially which related to protein synthesis. The proteins created in the cell body are delivered to other parts of the nerve. An axon is a long cylinder, which transmits an electrical impulse and can be several meters long in vertebrates (giraffe axons go from the head to the tip of the spine). In humans the length can be a percentage of a millimeter to more than a meter. An axonal transport system for delivering proteins to the ends of the cell exists and the transport system has 'molecular motors', which ride upon tubulin rails. Dendrites are connected to either the axons or dendrites of other cells and receive impulses from other nerves or relay the signals to other nerves. In the human brain each nerve is connected to approximately 10,000 other nerves, mostly through dendrite connections.</p>
+          <h4 id="activities-in-cns"><strong>Activities in CNS</strong></h4>
+          <p>The activities in the CNS are mainly related to the synaptic currents transferred between the junctions (called synapses) of axons and dendrites, or dendrites and dendrites of cells. A potential of 60-70 mV with negative polarity may be recorded under the membrane of the cell body. This potential changes with variations in synaptic activities. If an action potential travels along the ?bre, which ends in an excitatory synapse, an excitatory post-synaptic potential (EPSP) occurs in the following neuron. If two action potentials travel along the same ?bre over a short distance, there will be a summation of EPSPs producing an action potential on the postsynaptic neuron providing a certain threshold of membrane potential is reached. If the ?bre ends in an inhibitory synapse, then hyper polarization will occur, indicating an inhibitory postsynaptic potential (IPSP). Following the generation of an IPSP, there is an over?ow of cations from the nerve cell or an in?ow of anions into the nerve cell. This ?ow ultimately causes a change in potential along the nerve cell membrane. The portion of these currents that ?ow through the extra cellular space is directly responsible for the generation of field potentials. These field potentials, usually with less than 100 Hz frequency, are called EEGs when there are no changes in the signal average and DC if there are slow drifts in the average signals, which may mask the actual EEG signals. A combination of EEG and DC potentials is often observed for some abnormalities in the brain such as seizure (induced by pentylenetetrazol), hypercapnia, and asphyxia.</p>
+          <h4 id="action-potentials"><strong>Action Potentials</strong></h4>
+          <p>The information transmitted by a nerve is called an action potential (AP). APs are caused by an exchange of ions across the neuron membrane and an AP is a temporary change in the membrane potential that is transmitted along the axon. It is usually initiated in the cell body and normally travels in one direction. The membrane potential depolarizes (becomes more positive), producing a spike. After the peak of the spike the membrane repolarizes (becomes more negative). The potential becomes more negative than the resting potential and then returns to normal. The action potentials of most nerves last between 5 and 10 milliseconds. The conduction velocity of action potentials lies between 1 and 100 m/s. APs are initiated by many different types of stimuli; sensory nerves respond to many types of stimuli, such as chemical, light, electricity, pressure, touch, and stretching. On the other hand, the nerves within the CNS (brain and spinal cord) are mostly stimulated by chemical activity at synapses. A stimulus must be above a threshold level to set off an AP. Very weak stimuli cause a small local electrical disturbance, but do not produce a transmitted AP. As soon as the stimulus strength goes above the threshold, an action potential appears and travels down the nerve. The potentials generated by neuron are as shown in Fig. 1.</p>
+          <center><img src="images/Fig 1.png" title=""></center>
+          
+          <h4 id="steps-in-ap-generation-in-human-brain"><strong>Steps in AP Generation in Human Brain</strong></h4>
+          <ol>
+          <li><p>When the dendrites of a nerve cell receive the stimulus the Na+ channels will open. If the opening is sufficient to drive the interior potential from  -70 mV up to -55 mV, the process continues.</p>
+          </li>
+          <li><p>As soon as the action threshold is reached, additional Na+ channels (sometimes called voltage-gated channels) open. The Na+ influx drives the interior  of the cell membrane up to approximately +30 mV. The process to this point is called depolarization.</p>
+          </li>
+          <li><p>Then Na+ channels close and the K+ channels open. Since the K+ channels are much slower to open, the depolarization has time to be completed. Having  both Na+ and K+ channels open at the same time would drive the system towards neutrality and prevent the creation of the action potential.</p>
+          </li>
+          <li><p>Having the K+ channels open, the membrane begins to repolarize back towards its rest potential.</p>
+          </li>
+          <li><p>The repolarization typically overshoots the rest potential to a level of approximately -90 mV. This is called hyper polarization and would seem to be  counterproductive, but it is actually important in the transmission of information. Hyper polarization prevents the neuron from receiving another  stimulus during this time, or at least raises the threshold for any new stimulus. Part of the importance of hyper polarization is in preventing any  stimulus already sent up an axon from triggering another action potential in the opposite direction. In other words, hyper polarization ensures  that the signal is proceeding in one direction.</p>
+          </li>
+          <li><p>After hyper polarization, the Na+/K+ pumps eventually bring the membrane back to its resting state of -70 mV.</p>
+          </li>
+          </ol>
+          <h4 id="eeg-generation"><strong>EEG Generation</strong></h4>
+          <p>An EEG signal is a measurement of currents that flow during synaptic excitations of the dendrites of many pyramidal neurons in the cerebral cortex. When brain cells (neurons) are activated, the synaptic currents are produced within the dendrites. This current generates a magnetic field measurable by electromyogram (EMG) machines and a secondary electrical field over the scalp measurable by EEG systems. The human head consists of different layers including the scalp, skull, brain and many other thin layers in between. The skull attenuates the signals approximately one hundred times more than the soft tissue. On the other hand, most of the noise is generated either within the brain (internal noise) or over the scalp (system noise or external noise). Therefore, only large populations of active neurons can generate enough potential to be recordable using the scalp electrodes. These signals are later amplified greatly for display purposes. Approximately 1011 neurons are developed at birth when the central nervous system (CNS) becomes complete and functional. This makes an average of 104 neurons per cubic mm. Neurons are interconnected into neural nets through synapses. Adults have approximately 5*1014 synapses. The number of synapses per neuron increases with age, whereas the number of neurons decreases with age. From an anatomical point of view the brain may be divided into three parts: the cerebrum, cerebellum, and brain stem. The cerebrum consists of both left and right lobes of the brain with highly convoluted surface layers called the cerebral cortex. The cerebrum includes the regions for movement initiation, conscious awareness of sensation, complex analysis, and expression of emotions and behavior. The cerebellum coordinates voluntary movements of muscles and maintains balance. The brain stem controls involuntary functions such as respiration, heart regulation, biorhythms, and neurohormone and hormone sections.</p>
+          <h4 id="eeg-recording-and-measurement"><strong>EEG Recording and Measurement</strong></h4>
+          <p>The EEG recording electrodes and their proper function are crucial for acquiring high quality data. Different types of electrodes are often used in the EEG recording systems, such as:</p>
+          <ul>
+          <li><p>Disposable (gel-less, and pre-gelled types)</p>
+          </li>
+          <li><p>Reusable disc electrodes (gold, silver, stainless steel, or tin)</p>
+          </li>
+          <li><p>Headbands and electrode caps</p>
+          </li>
+          <li><p>Saline-based electrodes</p>
+          </li>
+          <li><p>Needle electrodes</p>
+          </li>
+          </ul>
+          <p>For multichannel recordings with a large number of electrodes, electrode caps are often used. Commonly used scalp electrodes consist of Ag-AgCl disks, less than 3 mm in diameter, with long flexible leads that can be plugged into an amplifier. Needle electrodes are those that have to be implanted under the skull with minimal invasive operations. High impedance between the cortex and the electrodes as well as the electrodes with high impedances can lead to distortion, which can even mask the actual EEG signals.</p>
+          <h4 id="10-20-electrode-positioning"><strong>10-20 Electrode Positioning</strong></h4>
+          <p>The 10-20 system avoids both eyeball placement and considers some constant distances by using specific anatomic landmarks from which the measurement would be made and then uses 10 or 20% of that specified distance as the electrode interval. The odd electrodes are on the left and the even ones on the right.</p>
+          <center><img src="images/Fig 2.png" title=""></center>
+          
+          <p>Fp: Frontopolar
+          F: Frontal
+          T: Temporal
+          O: Occipital
+          C: Central
+          P: Parietal
+          A: Ear Lobe</p>
+          <h4 id="brain-rhythms"><strong>Brain Rhythms</strong></h4>
+          <p>Many brain disorders are diagnosed by visual inspection of EEG signals. The clinical experts in the field are familiar with manifestation of brain rhythms in the EEG signals. In healthy adults, the amplitudes and frequencies of such signals change from one state of a human to another, such as wakefulness and sleep. The characteristics of the waves also change with age. There are five major brain waves distinguished by their different frequency ranges. These frequency bands from low to high frequencies respectively are called delta (δ), theta (θ), alpha (α), beta (β) and gamma (γ).</p>
+          <center><img src="images/Fig 3.png" title=""></center>
+          
+          <ul>
+          <li><p>Delta - refers to frequencies below 4 Hz. Delta activity, which is the slowest waveform, is normal when present in adults during sleep. In normal elderly subjects, delta activity is sometimes seen in the temporal regions during wakefulness, and in a generalized distribution, maximal anteriorly, during drowsiness. It is usually abnormal under other circumstances.</p>
+          </li>
+          <li><p>Theta - ranges from 4 Hz to less than 8 Hz. It is often present diffusely in children and young adults during wakefulness, whereas in adults it occurs predominantly during drowsiness. Like delta activity, theta activity may occur in the temporal regions in normal elderly adults during wakefulness. * Alpha - ranges from 8 to 13 Hz. Alpha waves appear in the posterior half of the head and are usually found over the occipital region of the brain. They can be detected in all parts of posterior lobes of the brain. Alpha waves have been thought to indicate both a relaxed awareness without any attention or concentration.</p>
+          </li>
+          <li><p>Beta - above 13 Hz. This activity is usually most prominent anteriorly and is often increased during drowsiness and in patients receiving sedating medication, particularly barbiturates or benzodiazepines. Rhythmical beta activity is encountered mainly over the frontal and central regions.</p>
+          </li>
+          <li><p>Gamma - correspond to the frequencies above 30 Hz (mainly up to 45 Hz, sometimes called the fast beta wave). Although the amplitudes of these rhythms are very low and their occurrence is rare, detection of these rhythms can be used for confirmation of certain brain diseases. The regions of high EEG frequencies and highest levels of cerebral blood flow (as well as oxygen and glucose uptake) are located in the frontocentral area. The gamma wave band has also been proved to be a good indication of event-related synchronization (ERS) of the brain and can be used to demonstrate the locus for right and left index finger movement, right toes, and the rather broad and bilateral area for tongue movement.</p>
+          </li>
+          </ul>
+          <h4 id="applications"><strong>Applications</strong></h4>
+          <p>The study of EEG is very much in need for diagnosis of many neurological disorders and other abnormalities in the human body. The acquired EEG signals from a human (and also from animals) may be used for investigation of the following clinical problems:</p>
+          <ul>
+          <li>Monitoring alertness, coma, and brain death</li>
+          <li>Locating areas of damage following head injury, stroke, and tumor</li>
+          <li>Testing afferent pathways (by evoked potentials)</li>
+          <li>Monitoring cognitive engagement (alpha rhythm)</li>
+          <li>Producing biofeedback situations</li>
+          <li>Controlling anesthesia depth (servo anesthesia)</li>
+          <li>Investigating epilepsy and locating seizure origin</li>
+          <li>Testing epilepsy drug effects</li>
+          <li>Assisting in experimental cortical excision of epileptic focus</li>
+          <li>Monitoring the brain development</li>
+          <li>Testing drugs for convulsive effects</li>
+          <li>Investigating sleep disorders and physiology</li>
+          <li>Investigating mental disorders Providing a hybrid data recording system together with other imaging modalities.</li>
+          </ul>
+          
+          </div>
+        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fa fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fa fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fa fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fa fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+
+      <script src="./assets/js/toggleSidebar.js"></script>
+      
+  
+
+<script type="module" src="https://vjspranav.github.io/vleads-bug-report/client/app.js"></script></body></html>
