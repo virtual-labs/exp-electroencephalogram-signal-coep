@@ -28,8 +28,8 @@
     {
     "question": "The ranges of frequency and voltage related to EEG are",
     "answers": {
-        "a": "0.5 Hz to 100 Hz and 10 µV to 100 µV",
-        "b": "DC to 10 kHz and 10 µV to 1000 µV",
+        "a": "0.5 Hz to 100 Hz and 10 &mu;V to 100 &mu;V",
+        "b": "DC to 10 kHz and 10 &mu;V to 1000 &mu;V",
         "c": "0 to 1000 kHz and 0.1 mV to few mV",
         "d": "20 Hz to 100 Hz and 0 to few mV"
       },
